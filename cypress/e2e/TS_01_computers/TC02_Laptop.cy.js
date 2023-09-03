@@ -1,7 +1,5 @@
-import {Desktops} from '../../support/pageObject/computers/desktopPages'
+import {Desktops} from '../../../pageObject/Computers/DesktopPages'
 const desktopPage = new Desktops
-
-
 
 
 describe('Laptop Basket', () => {

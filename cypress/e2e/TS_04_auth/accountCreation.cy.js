@@ -1,4 +1,4 @@
-import {UserRegisteration} from '../../support/pageObject/registration-login_PO/accountCreation_login'
+import {UserRegisteration} from '../../../pageObject/registration-login_PO/accountCreation_login'
 import { faker } from '@faker-js/faker';
 const registration = new UserRegisteration()
 const userName = faker.internet.userName();
