@@ -25,7 +25,7 @@ Clone this repository:
 
 bash
 Copy code
-git clone https://github.com/your-username/ecommerce-cypress-automation.git
+git clone https://github.com/akan-baba/cypressAutomation.git
 Navigate to the project directory:
 
 bash
