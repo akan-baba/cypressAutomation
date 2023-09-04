@@ -1,4 +1,4 @@
-import {UserRegisteration} from '../../../pageObject/Registration-login_PO/accountCreation_login'
+import {UserRegisteration} from '../../../pageObject/registration-login_PO/accountCreation_login'
 const registration = new UserRegisteration()
 
 

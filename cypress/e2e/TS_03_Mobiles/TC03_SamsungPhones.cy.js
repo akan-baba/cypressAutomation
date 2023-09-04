@@ -2,7 +2,7 @@ import {MobilePhones} from '../../../pageObject/Mobile/MobilePhones'
 const phones = new MobilePhones
 
 
-describe('Samsung Basket', () => {
+describe('Samsung Phoe Basket', () => {
     beforeEach(() => {
         cy.visit('/')
     });
