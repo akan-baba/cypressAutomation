@@ -11,6 +11,6 @@ module.exports = defineConfig({
     },
     baseUrl: 'http://192.168.1.201:8008/',
     projectId: 'tiuogo',
-    
+    retries: 1
   },
 });
