@@ -12,6 +12,7 @@ Cypress.Commands.add("guestCheckOutCreditCard", () => {
     cy.get('#BillingNewAddress_Email').type(email)
     cy.get('#BillingNewAddress_CountryId').select('235')
     cy.get('#BillingNewAddress_StateProvinceId').select('626')
+    cy.get('#BillingNewAddress_County').type('Great Manchy')
     cy.get('#BillingNewAddress_City').type('Machy')
     cy.get('#BillingNewAddress_Address1').type('Moss Grange')
     cy.get('#BillingNewAddress_ZipPostalCode').type('M16 20AH')

@@ -6,7 +6,7 @@ import '@shelex/cypress-allure-plugin';
 // require('./commands')
 require('@shelex/cypress-allure-plugin');
 require('browserstack-cypress-cli/bin/testObservability/cypress');
-
+require('cypress-xpath');
 
 // Hide fetch/XHR requests
 const app = window.top;

@@ -13,13 +13,13 @@ describe('User Registration', () => {
         cy.visit('/')
     });
 
-    it('User registration with valid details', () => {
+    it.only('User registration with valid details', () => {
         registration.pageMethods.registerLink().click()
         registration.pageMethods.maleGender().click()
         registration.pageMethods.firstNameInput().type(firstname)
         registration.pageMethods.lastNameInput().type(lastname)
         registration.pageMethods.daySelect().select('20')
-        registration.pageMethods.monthSelect().select('7')
+        registration.pageMethods.monthSelect().select('7', {force: true})
         registration.pageMethods.yearSelect().select('1940')
         registration.pageMethods.emailInput().type(email)
         registration.pageMethods.userNameInput().type(userName)

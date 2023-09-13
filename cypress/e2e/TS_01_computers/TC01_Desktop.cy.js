@@ -6,7 +6,7 @@ describe('Desktops Computer basket', () => {
         cy.visit('/')
     });
 
-    it('Lenovo IdeaCentre', () => {
+    it.only('Lenovo IdeaCentre', () => {
         cy.linkText().contains('Computers').click({ force: true })
         cy.linkText().contains('Desktops PCs').click({ force: true })
         cy.addToCart().eq(0).click()
